@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Kanit:wght@300&family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+
+    <title>myNotes</title>
+</head>
+
+<body>
+    <button id="botaoSair" class="botaoSair">Log Out</button>
+
+    <h1>myNotes</h1>
+    <form class="inputLine" id="inputLine">
+        <input type="text" id="inputDescricao" placeholder="Note Title" required>
+        <input type="text" id="inputDetalhamento" placeholder="Description">
+        <input class="botaoSalvar" type="button" value="Save">
+    </form>
+    
+    <table class="listaDeRecados">
+        <thead>
+            <tr>
+                <th id="thNumero">#</th>
+                <th id="thDescricao">Title</th>
+                <th id="thDetalhamento">Description</th>
+                <th id="thAcao">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tBody">
+        </tbody>
+    </table>
+    <div id="alertModal"></div>
+</body>
+<script src="/assets/js/home.js"></script>
+</html>

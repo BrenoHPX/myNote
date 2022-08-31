@@ -1,0 +1,200 @@
+body{
+    position: relative;
+    display: inline-block;
+    background-color: #130902;
+    background-image: url(https://1.bp.blogspot.com/-qA5bYWoNA64/XPaGH14BwdI/AAAAAAABG-8/rMidYAMx1bMrAqlVhvlChZ0_bVoyZsOjQCLcBGAs/s1600/37.gif);
+    height: 99vh;
+}
+
+main{
+    display: block;
+    float: right;
+    width: 42vw;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 43px;
+}
+
+.main2{
+    display: block;
+    float: right;
+    width: 42vw;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+h1{
+    padding: 2rem;
+    font-size: 6rem;
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #FEEC0F, 10px 10px 80px white, -10px -10px 160px white ;
+    font-family: 'Sansita Swashed', cursive;
+    margin: 3rem 0 0rem 0;
+}
+
+.image{
+    width: 37vw;
+    height: 95vh;
+    margin-top: 1vh;
+    margin-left: 5vh;
+}
+
+input{
+
+    border-radius: 7px;
+    text-shadow: 1px 1px 2px #fe8e0f;
+    box-shadow: 2px 2px 6px #FEEC0F, -2px -2px 5px #df650f, 0px 0px 30px rgba(255, 255, 255, 0.644);
+    background-color: #ffffff31;
+    font-size: 22px;
+    color: #DDDDDB;
+    border-style: hidden;
+    margin-bottom: 30px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: #e2ac80;
+    text-shadow: 0px 0px 1px #fe8e0f ;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.botaoCriarConta{
+    display: block;
+    text-align: center;
+    margin: 4rem auto 1rem auto;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    width: 87%;
+
+    border-style:solid;
+    border-color: #ffe600;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #DDDDDB;
+    background-color: #ffe60049;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.438);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+.botaoVoltar{
+    display: block;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    border-style:solid;
+    border-color: #DDDDDB;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 87%;
+
+    border-style:solid;
+    border-color: #ff6a00;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    color: #DDDDDB;
+    background-color: #c955027e;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.438);
+}
+
+.botaoNovaConta{
+    display: block;
+    text-align: center;
+    margin: 0rem auto 1rem auto;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    width: 87%;
+    
+    border-style:solid;
+    border-color: #ff6a00;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    color: #DDDDDB;
+    background-color: #c955027e;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.438);
+}
+
+.botaoEntrar {
+    display: block;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+    padding: 5px 10px 10px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    width: 87%;
+    
+    border-style:solid;
+    border-color: #ffe600;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #DDDDDB;
+    background-color: #ffe60049;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.438);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.inputField{
+    margin-top: 5rem;
+    padding: 3px 8px 3px 8px;
+    width: 40%;
+    text-align: center;
+}
+
+.inputCadastro{
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.formFieldCadastro {
+
+    width: 50%;
+    display: block;
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+    padding: 3px 8px 3px 8px;
+    
+}
+
+.formFieldCadastro::placeholder {
+font-size: 20px;
+color: #e2ac80;
+text-shadow: 0px 0px 1px #fe8e0f ;
+font-family: 'El Messiri', sans-serif;
+}
+
+#newUsername{
+    margin: 3rem auto 3rem;
+}
+
+#alertModal{
+    color: #DDDDDB;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'El Messiri', sans-serif;
+    text-shadow: 0px 0px 1px #fe8e0f ;
+    font-size: 1.5rem;
+    min-width: 11vw;
+    margin: 0 auto;
+
+    background-color: #f41f103e;
+    border-radius: 10px;
+
+    display: none;
+}
